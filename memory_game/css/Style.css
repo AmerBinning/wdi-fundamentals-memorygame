@@ -1,0 +1,140 @@
+h1 {
+    font-family: "Raleway", sans-serif;
+    color: #0D2C40;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0;
+}
+
+h2{
+
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+header{
+	background-color: #F15B31;
+	padding: 30px 20px; 
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0;
+	margin: 0;
+}
+
+footer{
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+img{
+	margin: 40px 8px 0 8px;
+	width: 10%;
+	height: 10%;
+}
+
+img:hover{
+	box-shadow: 0 0 2em gold; 
+}
+
+a{
+	text-decoration: none;
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
+	color: red;
+}
+
+a:hover{
+	border-color: white;
+}
+
+p {
+  font-family: "Droid Serif", serif;
+}
+
+#timer{
+	float:right;
+	padding: 0; 
+	font-size: large;
+}
+
+/*Select all section element with a class*/
+section[class] {
+	float:right;
+	padding-right: 20px;
+	font-size: large;
+}
+
+
+.instructionGame{
+	font-family: "Raleway", sans-serif;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px
+}
+
+.copyright{
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+[type="button"] {
+	float: left;
+	font-size: medium;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+[type="button"]:hover {
+	color: gold;
+}
+
+.name{
+	color: #F15B31;
+	font-weight: 400;
+}
+
+.announcement {
+	color: red;
+	text-shadow: 0 0 1em gold;
+	font-weight: 800;
+	margin-right: 40px;
+	font-size: large;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
